@@ -1,0 +1,30 @@
+Package: chaidy
+Title: Japanese Tool
+Version: 0.0.0.9000
+Authors@R: person('Daniel', 'Martin Cruz', email = 'nadrieci@gmail.com', role = c('cre', 'aut'))
+Description: Tool to practise japanese
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    googlesheets4,
+    shiny,
+    shinydashboard,
+    shinydashboardPlus,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    futile.logger,
+    pkgload,
+    data.table,
+    rsconnect
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
